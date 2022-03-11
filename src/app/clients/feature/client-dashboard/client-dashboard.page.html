@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title data-test="page-title">Clients</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-client-list
+    *ngIf="clientsStore.clients$ | async as clients"
+    [clients]="clients"
+  ></app-client-list>
+</ion-content>

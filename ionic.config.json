@@ -1,0 +1,7 @@
+{
+  "name": "smart-to-dumb-refactor",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
